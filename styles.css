@@ -1,4 +1,20 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -181,6 +197,7 @@ html{
 .card-container{
     overflow: auto;
     display: flex;
+    justify-content: space-evenly;
     
     
 }
@@ -193,7 +210,8 @@ html{
 .cards{
     /* background-color: var(--cards-color); */
     overflow: auto;
-    width: 320px;
+    flex-wrap: nowrap;
+    width: 350px;
     height: auto;
     border: 3px solid var(--cards-color);
     border-radius: 15px;
