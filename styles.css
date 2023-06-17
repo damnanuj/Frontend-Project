@@ -1,20 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -209,7 +193,7 @@ html{
 .cards{
     /* background-color: var(--cards-color); */
     overflow: auto;
-    width: 350px;
+    width: 320px;
     height: auto;
     border: 3px solid var(--cards-color);
     border-radius: 15px;
