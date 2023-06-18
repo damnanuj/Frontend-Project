@@ -1,4 +1,6 @@
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +22,7 @@ html{
     font-size: 62.5%;
     /* 1rem = 10px */
 }
-
+/* *****************Colors********************** */
 :root{
     --para-color: #C4C4C4;
     --text-color: #FFFFFF;
@@ -28,26 +30,17 @@ html{
     --backgroun-color: #1F1F1F;
     --cards-color: #262626;
    }
-   header{
-    height: 10rem;
 
+
+
+/* **********************Navigation Logo and Navbar Section******************** */
+
+header{
+    height: 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     
-}
-
-.navbar-list {
-    display: flex;
-    gap:2.5rem;
-    list-style: none;
-   
-}
-.navbar-list li{
-    padding: 10px 25px;
-    background-color: #262626;
-    border-radius: 15px;
-  
 }
 .logo{
     text-decoration: none;
@@ -68,11 +61,21 @@ html{
     border-radius: 15px;
     text-align: left;
 }
-.searchBox:hover{
-    background-color: #454545;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+.navbar-list {
+    display: flex;
+    gap:2.5rem;
+    list-style: none;
+   
 }
+.navbar-list li{
+    padding: 10px 25px;
+    background-color: #262626;
+    border-radius: 15px;
+  
+}
+
 .navbar-links:link,
 .navbar-links:visited{
     display: inline-block;
@@ -85,12 +88,11 @@ html{
     color: var(--text-color);
     transition: all 0.3s;
 }
-.navbar-list li:hover{
-    background-color: #454545;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-/* **********************main parts******************* */
+
+
+
+
+/* **********************main parts Starts from here******************* */
 .mainContainer{
     background-color: var(--cards-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -136,12 +138,13 @@ html{
     font-weight: 600;
 }
 
-/* *******************right part******************** */
+/* *******************Main right part******************** */
 
 .right img{
     width: 250px;
     margin-left: 120px;
 }
+/* **************right big button****************** */
 .topbtn{
     background-color: var(--icon-color);
     color: white;
@@ -154,15 +157,8 @@ html{
     border-radius: 100px;
     margin-left: 140px;
     margin-bottom: 20px;
+    
 }
-
-.topbtn:hover{
-    cursor: pointer;
-    background-color: #c39e0b;
-    color: white;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 
 
 
@@ -183,14 +179,12 @@ html{
     display: flex;
     justify-content: space-evenly;
     
-    
 }
 .section33{
     width: 33.33%;
     margin-left: 30px;
     
 }
-
 .cards{
     /* background-color: var(--cards-color); */
     overflow: auto;
@@ -223,7 +217,11 @@ html{
     font-weight: 300;
     font-family: poppins;
 }
-/* ******************button parts*********************** */
+
+
+
+
+/* ******************Category button parts*********************** */
 .card-btn{
     background-color: var(--icon-color);
     color: var(--cards-color);
@@ -235,12 +233,40 @@ html{
     margin-left: 220px;
     margin-bottom: 20px;
 }
-.card-btn:hover{
+
+
+
+/* ****************************All Hover Parts Here***************************** */
+.navbar-list li:hover{
+    background-color: #454545;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.searchBox:hover{
+    background-color: #454545;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.topbtn:hover{
     cursor: pointer;
     background-color: #c39e0b;
     color: white;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     transition: all 0.3s ease-in-out;
 }
+.cards:hover{
+    /* border: 4px solid var(--cards-color); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease-in-out;
+}
+.card-btn:hover{
+    cursor: pointer;
+    background-color: #c39e0b;
+    color: white;
+    transition: all 0.3s ease-in-out;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 
 
