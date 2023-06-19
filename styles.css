@@ -139,10 +139,14 @@ header{
 }
 
 /* *******************Main right part******************** */
-
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .right img{
     width: 250px;
-    margin-left: 120px;
+   
 }
 /* **************right big button****************** */
 .topbtn{
@@ -155,7 +159,6 @@ header{
     font-weight: 600;
     padding: 20px 50px;
     border-radius: 100px;
-    margin-left: 140px;
     margin-bottom: 20px;
     
 }
